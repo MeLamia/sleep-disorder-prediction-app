@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import pickle 
+import pickle5 as pickle
 
 def classify_blood_pressure(systolic, diastolic):
     if (systolic <= 120 and diastolic <= 80) or (systolic <= 119 and diastolic <= 77):
